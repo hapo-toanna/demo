@@ -9,9 +9,10 @@ module.exports = {
 
   deploy : {
     production : {
+      key : 'key.pem',
       user : 'ubuntu',
       host : '192.168.1.105',
-      ref  : 'origin/main',
+      ref  : 'main',
       repo : 'git@github.com:hapo-toanna/demo.git',
       path : '/home/ubuntu',
       'pre-deploy-local': '',
