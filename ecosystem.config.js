@@ -2,9 +2,6 @@ module.exports = {
   apps : [{
     script: 'npm start',
     watch: '.'
-  }, {
-    script: './service-worker/',
-    watch: ['./service-worker']
   }],
 
   deploy : {
