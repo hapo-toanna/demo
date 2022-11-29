@@ -12,7 +12,7 @@ module.exports = {
       ref  : 'main',
       repo : 'git@github.com:hapo-toanna/demo.git',
       path : '/home/ubuntu',
-      'pre-deploy-local': '',
+      'pre-deploy-local': '/var/www/my-repository"',
       'post-deploy' : 'source ~/.nvm/nvm.sh && npm install && npm run build && pm2 reload ecosystem.config.js --env production',
       'pre-setup': '',
       'ssh_options': 'ForwardAgent=yes'
